@@ -1,0 +1,32 @@
+.Nathalie-Aguilar {
+  width: 150px;
+  padding: 80px;
+  border: 3px solid black;
+  margin: 75px;
+  background-color: pink;
+  height: 100px; /* optional */
+  border-radius: 25px;
+  box-shadow: 10px 15px;
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+  color: red;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  color: green;
+}
+
+p {
+  font-size: 15px;
+  text-align: center;
+  color: red;
+}
+.poster:hover {
+  background-color: red;
+}
+
+
