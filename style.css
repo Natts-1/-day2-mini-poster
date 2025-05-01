@@ -28,5 +28,55 @@ p {
 .poster:hover {
   background-color: red;
 }
+/* Day 3 Styles */
+
+/* Fixed Header */
+header {
+  position: absolute;
+  top: 50;
+  left: 80;
+  width: 100%;
+  background-color: red;
+  padding: 100px;
+  text-align: center;
+  z-index: 2px;
+}
+
+/* Content Container */
+.Nathalie {
+  position: absolute;
+  background-color: yellow;
+  padding: 100px;
+  margin-top: 20px;
+  height: 150px;
+  overflow: auto;
+}
+
+/* Info Panel */
+.info-panel {
+  position: absolute;
+  top: 100;
+  right: 80;
+  width: 150px;
+  background-color: blue;
+  padding: 200px;
+  border: 1px solid yellow;
+  z-index: 1px;
+}
+
+/* Paragraphs */
+p {
+  display: inline-block;
+  margin: 10px 0;
+  font-size: 25px;
+}
+
+/* Tags */
+.tag {
+  display: inline-block;
+  background-color: red;
+  padding: 4px 10px;
+  margin-right: 8px;
+}
 
 
